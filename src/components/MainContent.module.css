@@ -1,0 +1,29 @@
+.container{
+    /* border-bottom: 1px solid #2E405A; */
+    padding: 0 25px;
+    line-height: 26px;
+    color: #8BACD9;
+
+
+}
+
+.iconContainer{
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+.verticalAlignment{
+    display: flex;
+    align-items: center;
+
+}
+
+.cyan{
+    color: cyan;
+}
+
+.underline{
+    width: 300px;
+    border: 1px solid #2E405A;
+}

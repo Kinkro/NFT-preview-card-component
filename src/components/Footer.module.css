@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    align-items: center;
+    height:80px;
+}
+
+
+.avatar{
+    width:33px;
+    height:auto;
+    padding: 0 15px 0 24px;
+}
+
+.white{
+    color:white;
+
+}
+
+.darkBlue{
+    color: #8BACD9;
+}

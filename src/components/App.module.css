@@ -1,0 +1,32 @@
+.app{
+
+    width: 350px;
+    margin: auto;
+    cursor: pointer;
+    background: #15263F;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    border-radius: 15px;
+    padding: 25px 0;
+}
+
+/* .hover:hover{
+    
+} */
+
+.app:hover .imgHover{
+    background: #00FFF8;
+    opacity: 0.5;
+    
+}
+
+.app:hover .cyan{
+    color:#00FFF8;
+}
+
+@media screen and (max-width: 375px){
+    .app{
+        width:330px;
+
+    }
+    
+}

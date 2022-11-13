@@ -1,0 +1,37 @@
+.imgContainer{
+    margin:auto;
+    background-color: #00FFF8;
+    border-radius:10px;
+    width:300px;
+    height:300px;
+}
+
+
+.img{
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    position: absolute;
+}
+
+.eye{
+    position: absolute;
+    width: 50px;
+    margin:125px 150px;
+}
+
+
+.heading{
+    font-size: 22px;
+    font-family:'Outfit', sans-serif;
+    color: white;
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 375px){
+    .img, .imgContainer{
+        width:280px;
+        height:280px;
+    }
+    
+}
